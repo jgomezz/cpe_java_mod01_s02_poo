@@ -18,6 +18,7 @@ public class Persona {
 //    	this.sexo='M';
     	System.out.println("----------------------");
     	System.out.println("Instanciando un objeto");
+        System.out.println("----------------------");
     }
     
     /**
