@@ -1,4 +1,4 @@
-package pe.edu.tecsup.poo._01.declaracion.ejercicio;
+package pe.edu.tecsup.poo._01.declaracion.ejercicio1;
 
 public class Persona {
     String nombre;
