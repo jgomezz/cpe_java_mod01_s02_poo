@@ -13,5 +13,6 @@ public class Persona {
     //        public **
     //        private **
     //        protected
+    //        (default) **
     
 }

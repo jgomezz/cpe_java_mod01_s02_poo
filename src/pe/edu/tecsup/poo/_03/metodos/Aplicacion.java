@@ -23,7 +23,7 @@ public class Aplicacion {
 		// Llamada al metodos que retornan valores
 		int suma = mat.sumar();		
 		System.out.println("La suma es " + suma);
-		
+
 		System.out.println("La resta es " + mat.resta());
 		System.out.println("La multilicacion es " + mat.mult());
 		System.out.println("La division es " + mat.div());
