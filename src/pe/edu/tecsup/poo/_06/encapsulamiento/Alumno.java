@@ -2,11 +2,14 @@ package pe.edu.tecsup.poo._06.encapsulamiento;
 
 public class Alumno {
 
+    // private - public
+
+
     // cotrol de acceso (atributos)
-    public String nombres;
-    protected String dni;
-    Short edad;
-    private Integer horasEstudio;
+     String nombres;
+     String dni;
+     Short edad; // default
+     Integer horasEstudio;
 
     // comportamiento (metodo)
     public void saludar(String amigo) {

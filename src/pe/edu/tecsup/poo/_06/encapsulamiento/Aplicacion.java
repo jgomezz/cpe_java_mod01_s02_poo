@@ -7,7 +7,7 @@ public class Aplicacion {
 		// tipo identificador = 
 		Alumno alumno1 = new Alumno();
 
-		/*
+		///*
 		alumno1.nombres = "Jaime Jose";
 		alumno1.dni = "Jaime Jose";
         alumno1.edad = 15;
