@@ -7,7 +7,7 @@ public class Venta {
     
     public double calcularImpuesto(){
         
-        return monto*igv;
+        return this.monto * this.igv;
     }
     
 }

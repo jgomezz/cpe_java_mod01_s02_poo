@@ -6,13 +6,13 @@ public class Aplicacion {
         
         VentaLima lima = new VentaLima();
         lima.monto = 100;
-        lima.igv = 0.18;
-        System.out.println(lima.calcularImpuesto());
+        // lima.igv = 0.18;
+        System.out.println("IGV Lima : " + lima.calcularImpuesto());
         
         VentaLoreto iquitos = new VentaLoreto();
         iquitos.monto = 100;
-        iquitos.igv = 0.0;
-        System.out.println(iquitos.calcularImpuesto());
+        // iquitos.igv = 0.0;
+        System.out.println("IGV Iquitos : " + iquitos.calcularImpuesto());
 
     }
 }
