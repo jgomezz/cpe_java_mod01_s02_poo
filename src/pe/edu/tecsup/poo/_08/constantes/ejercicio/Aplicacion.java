@@ -10,8 +10,13 @@ package pe.edu.tecsup.poo._08.constantes.ejercicio;
  */
 public class Aplicacion {
 
-
     public static void main(String[] args) {
+        Calculadora calculadora = new Calculadora();
+
+        System.out.println("Suma: " + Calculadora.sumar(5, 3));
+        System.out.println("Resta: " + calculadora.restar(8,2));
+        System.out.println("Constante PI: " + Calculadora.PI);
+        System.out.println("El area del circulo es: " + Calculadora.areaCirculo(4));
 
     }
 }
