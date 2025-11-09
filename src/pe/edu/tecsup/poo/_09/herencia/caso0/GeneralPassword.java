@@ -7,6 +7,6 @@ public class GeneralPassword {
     protected String version = "1.0";
 
     protected String encrytarWord(String word) {
-        return word;
+        return this.keyword + word + this.version;
     }
 }

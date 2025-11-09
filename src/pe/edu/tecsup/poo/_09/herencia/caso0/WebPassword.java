@@ -5,11 +5,18 @@ public class WebPassword extends GeneralPassword {
     public void procesar(){
 
         //String k = keyword;
-        String v = version;
+
+        // Accediendo al atributo protected de la clase base
+        String v = super.version;
 
         //System.out.println("Keyword: " + k);
         System.out.println("Version: " + v);
 
+        String msg = "Enviame tu DNI";
+
+        String encrypted = super.encrytarWord(msg);
+
+        System.out.println("Mensaje Encriptado: " + encrypted);
     }
 
 }
